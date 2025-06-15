@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> country Info Getter </title>
+    <link rel="stylesheet" href="country.css">
+</head>
+<body>
+    <main>
+        <div id="input">
+            <p> Enter Country name you want to surf ---> </p>
+            <input type="text" placeholder="enter here" value="" id="countryNameInput" spellcheck="true">
+        </div>
+        <div id="loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <div id="countryData">
+            <img src="" alt="" id="imgSrc">
+            <div id="nameDiv" class="cntdetail">
+            <h1> Name:- </h1><p class="cntData" id="name">  </p>
+            </div>
+            <div id="continentDiv" class="cntdetail">
+            <h1> Continent:- </h1><p class="cntData" id="continent">  </p>
+            </div>
+            <div id="capitalDiv" class="cntdetail">
+                <h1>Capital:- </h1><p class="cntData" id="capital">  </p>
+            </div>
+            <div id="currencyDiv" class="cntdetail">
+                <h1>Currency:- </h1><p class="cntData" id="currency">  </p>
+            </div>
+            <div id="populationDiv" class="cntdetail">
+                <h1>Popluation:- </h1><p class="cntData" id="population">  </p>
+            </div>
+            <div id="mapLinkDiv" class="cntdetail">
+                <h1>Google Map:- </h1><a href="" target="_blank" class="cntData" id="mapLink">  </a>
+            </div>
+            <div id="tdlDiv" class="cntdetail">
+                <h1>Top Level Domain (eg:-www.abc.in.com):-  </h1><p class="cntData" id="topLevelDomain">  </p>
+            </div>
+            <div id="latlngDiv" class="cntdetail">
+                <h1>Latitude & Longitude:- </h1><p class="cntData" id="latlng">  </p>
+            </div>
+        </div>
+    </main>
+    <script src="codes.js"></script>
+    <script src="country.js"></script>
+</body>
+</html>

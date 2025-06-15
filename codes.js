@@ -4,6 +4,7 @@ const countryCodes = {
   AG: 'XCD',
   AL: 'ALL',
   AM: 'AMD',
+  DE: 'EUR',
   AN: 'ANG',
   AO: 'AOA',
   AQ: 'AQD',

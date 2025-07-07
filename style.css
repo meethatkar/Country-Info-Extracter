@@ -132,3 +132,33 @@ img{
         scale: 1;
     }
 }
+
+@media (max-width:700px) {
+    #input{
+        width: 90vw;
+        font-size: 5vw;
+        text-align: center;
+        flex-direction: column;
+        gap:10px;
+        padding: 2% 0%;
+    }
+    #input>input{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .dot{
+        width: 6vw;
+    }
+    #country-data{
+        padding: 3% 5%;
+    }
+    img{
+        /* height: 20vw; */
+    }
+    .cntdetail>h1{
+        font-size: 4vw;
+    }
+    .cntdetail>p,a{
+        font-size: 3vw;
+    }
+}
